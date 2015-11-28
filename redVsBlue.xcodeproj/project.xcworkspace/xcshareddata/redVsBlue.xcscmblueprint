@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D7E4A60FA9294D1E4FFE652408E0C1A0FF21129E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D7E4A60FA9294D1E4FFE652408E0C1A0FF21129E" : 0,
+    "9A65BCE6FCE5CEEC2D0DCBAFE8D2C0D74EB2A938" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3EEAD61-CE91-4D8A-81E7-F62116F7E8EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D7E4A60FA9294D1E4FFE652408E0C1A0FF21129E" : "redVsBlue\/",
+    "9A65BCE6FCE5CEEC2D0DCBAFE8D2C0D74EB2A938" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "redVsBlue",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "redVsBlue.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/InfiniteBriansTyping\/code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A65BCE6FCE5CEEC2D0DCBAFE8D2C0D74EB2A938"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:InfiniteBriansTyping\/redvsblue.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D7E4A60FA9294D1E4FFE652408E0C1A0FF21129E"
+    }
+  ]
+}
