@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="redVsBlue" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reds-and-blues-red-vs-blue-37412747-900-551" translatesAutoresizingMaskIntoConstraints="NO" id="bYE-5h-Sre">
+                                <rect key="frame" x="-300" y="331" width="599" height="343"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reds-and-blues-red-vs-blue-37412747-900-551" translatesAutoresizingMaskIntoConstraints="NO" id="3jr-q4-drg">
+                                <rect key="frame" x="43" y="-4" width="672" height="341"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcC-aE-Yd4">
+                                <rect key="frame" x="16" y="152" width="76" height="30"/>
+                                <state key="normal" title="HIDE BLUE"/>
+                                <connections>
+                                    <action selector="disappearRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Avy-IL-m5C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJt-y3-EJ2">
+                                <rect key="frame" x="290" y="494" width="67" height="30"/>
+                                <state key="normal" title="HIDE RED">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="disappearBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yl8-ia-VW0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="BlueButton" destination="XcC-aE-Yd4" id="TdA-E3-RNg"/>
+                        <outlet property="blueGuy" destination="3jr-q4-drg" id="FIU-JC-rLp"/>
+                        <outlet property="redButton" destination="hJt-y3-EJ2" id="55J-c2-4vC"/>
+                        <outlet property="redGuy" destination="bYE-5h-Sre" id="VlH-yo-YEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285.5" y="322.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="reds-and-blues-red-vs-blue-37412747-900-551" width="900" height="551"/>
+    </resources>
+</document>
